@@ -1,0 +1,5 @@
+# Define el nuevo nombre del equipo
+$newName = "wc81-31"
+
+# Cambia el nombre del equipo
+Rename-Computer -NewName $newName -Force -Restart
